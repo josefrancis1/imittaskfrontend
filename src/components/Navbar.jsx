@@ -1,6 +1,7 @@
 import React from 'react';
-
+import { useNavigate } from 'react-router-dom';
 const Navbar = () => {
+        const navigate = useNavigate();
     return (
         <div className="bg-black text-white h-16 flex items-center px-4">
             {/* Left Side: Image */}
