@@ -17,7 +17,7 @@ const Navbar = () => {
             <div className="flex items-center ml-auto space-x-6">
                 <button className="bg-black hover:bg-white hover:text-black text-white font-bold py-2 px-4 rounded">Home</button>
                 <button className="bg-black hover:bg-white hover:text-black text-white font-bold py-2 px-4 rounded">Gallery</button>
-                <button className="bg-black hover:bg-white hover:text-black text-white font-bold py-2 px-4 rounded">
+                 <button className="bg-black hover:bg-white hover:text-black text-white font-bold py-2 px-4 rounded" onClick={() => navigate('/login')}>
                     Login
                 </button>
             </div>
